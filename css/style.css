@@ -1,0 +1,121 @@
+/* Global styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+/* Sign-up styling */
+#sign-up {
+  height: 100vh;
+}
+
+#sign-up #main {
+  background: url("/img/background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+#sign-up .overlay {
+  position: fixed;
+  background: rgba(248, 98, 98, 0.911);
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+#sign-up #main {
+  display: flex;
+  align-items: center;
+}
+
+/* Main-left styling */
+#sign-up #main #main-left {
+  color: #fff;
+  width: 50%;
+}
+
+#sign-up #main #main-left h1 {
+  font-size: 45px;
+  padding-left: 100px;
+  padding-bottom: 40px;
+}
+
+#sign-up #main #main-left p {
+  padding-left: 100px;
+}
+
+/* Main-right styling */
+#sign-up #main #main-right {
+  width: 700px;
+  /* box-shadow: 0px 5px rgba(136, 135, 135, 0.1); */
+}
+
+#sign-up #main #main-right #trial {
+  width: 80%;
+}
+
+#sign-up #main #main-right #trial {
+  color: #fff;
+  padding: 20px 50px;
+  margin-bottom: 20px;
+  text-align: center;
+  background: #5d54a3;
+  border-radius: 10px;
+  box-shadow: 0px 5px rgba(93, 84, 163, 0.15);
+}
+
+#sign-up #main #main-right #sign-up-form {
+  width: 80%;
+  background: #fff;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#sign-up #main #main-right #sign-up-form input {
+  width: 90%;
+  padding: 13px;
+  margin-top: 30px;
+  border-radius: 10px;
+  border: 1px solid #d1d0d0;
+  outline: none;
+}
+
+#sign-up #main #main-right #sign-up-form .btn {
+  width: 90%;
+  background: #37cc8a;
+  margin-top: 30px;
+  border: none;
+  padding: 17px;
+  border-radius: 10px;
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  box-shadow: 0px 5px rgba(48, 196, 129, 0.15);
+  cursor: pointer;
+  outline: none;
+}
+
+#sign-up #main #main-right #sign-up-form span {
+  display: inline-block;
+  font-size: 13px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+#sign-up #main #main-right #sign-up-form span .terms-conditions {
+  color: rgba(248, 98, 98, 0.911);
+  text-decoration: none;
+}
+
+#sign-up #main #main-right #sign-up-form span .terms-conditions:hover {
+  color: rgb(221, 76, 76);
+}
